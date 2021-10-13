@@ -1,6 +1,6 @@
 #
 # Project Euler - Problem 8
-# Copyright Aled Parry. Al rights reserved.
+# Copyright Aled Parry. All rights reserved.
 #
 from functools import reduce
 
