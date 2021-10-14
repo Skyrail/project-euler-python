@@ -18,11 +18,9 @@ A = {p: True for p in range(2, n+1)}
 for i in range(2, int(sqrt(n))):
     if A[i]:
         j, k = 0, 0
-        while True:
+        while j < n:
             j = pow(i, 2)+k*i
             A[j] = False
             k += 1
-            if j > n:
-                break
 
 print(sum(set(k for k, v in A.items() if v)))
