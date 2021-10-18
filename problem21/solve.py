@@ -12,7 +12,7 @@ will have to do. Goodnight!
 
 def divisors(n):
     i,divs = 1,[]
-    while i <= n/2+1:
+    while i <= n/2:
         if n % i == 0:
             divs.append(i)
         i += 1
